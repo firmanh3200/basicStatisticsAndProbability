@@ -10,5 +10,5 @@ plt.ylabel('No. of Students')
 plt.title('Histogram')
 
 plt.xkcd()
-plt.hist(data, color='gray')
+plt.hist(data, color='gray',bins=10)
 plt.show()
